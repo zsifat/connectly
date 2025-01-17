@@ -1,0 +1,4 @@
+enum ProductCondition {
+  New,
+  Used,
+}

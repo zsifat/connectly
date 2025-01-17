@@ -1,0 +1,75 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Generated files
+*.lock
+*.log
+*.tmp
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Firebase-related files (ensure you keep these private!)
+google-services.json
+firebase-analytics.config
+*.keystore
+
+# Android Studio related
+/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Xcode related
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/.flutter-plugins-dependencies
+
+# Cloudinary cache (if used)
+.cloudinary/
+
+# macOS related
+.DS_Store
+*.plist
+
+# Linux related
+linux/build/
+
+# Web related
+web/.dart_tool/
+web/build/
