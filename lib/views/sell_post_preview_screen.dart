@@ -31,8 +31,6 @@ class SellPostPreviewScreen extends ConsumerWidget {
     final location = ref.read(sellProductLocationProvider);
     final List<String> imagePaths = ref.read(sellPostImageProvider);
     final isLoading = ref.watch(photoUploadLoadingProvider);
-    final isLightMode =
-        MediaQuery.of(context).platformBrightness == Brightness.light;
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,

@@ -9,7 +9,6 @@ import 'package:connectly_c2c/model/product_model/product_enums/product_location
 import 'package:connectly_c2c/model/product_model/product_model.dart';
 import 'package:connectly_c2c/model/user_model/user_profile_model.dart';
 import 'package:connectly_c2c/services/products_db_service.dart';
-import 'package:connectly_c2c/viewmodel/ui_viewmodel/is_booked_provider.dart';
 import 'package:connectly_c2c/viewmodel/user_viewmodel/user_profile_provider.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter_riverpod/flutter_riverpod.dart';

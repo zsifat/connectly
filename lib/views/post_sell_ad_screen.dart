@@ -1,9 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:connectly_c2c/model/product_model/product_enums/product_category_enum.dart';
-import 'package:connectly_c2c/model/product_model/product_enums/product_condition_enum.dart';
-import 'package:connectly_c2c/model/product_model/product_enums/product_location_enum.dart';
 import 'package:connectly_c2c/model/product_model/product_model.dart';
-import 'package:connectly_c2c/services/products_db_service.dart';
 import 'package:connectly_c2c/viewmodel/product_viewmodel/product_provider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

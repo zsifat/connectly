@@ -3,7 +3,6 @@ import 'package:connectly_c2c/viewmodel/login_viewmodel/email_provider.dart';
 import 'package:connectly_c2c/viewmodel/login_viewmodel/password_provider.dart';
 import 'package:connectly_c2c/viewmodel/user_viewmodel/user_profile_provider.dart';
 import 'package:connectly_c2c/views/login_screen.dart';
-import 'package:connectly_c2c/views/main_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -65,7 +64,6 @@ class AuthNotifier extends StateNotifier<UserCredential?> {
     } on Exception catch (e) {
       throw Exception(e);
     }
-    return null;
   }
 
   User? currentUser(WidgetRef ref) {

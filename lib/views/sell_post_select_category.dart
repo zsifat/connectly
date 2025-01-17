@@ -14,8 +14,6 @@ class PostSellSelectCategoryScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final size = MediaQuery.of(context).size;
     final categories = ref.watch(productCategoryProvider);
-    final isLightMode =
-        MediaQuery.of(context).platformBrightness == Brightness.light;
 
     return Scaffold(
       appBar: AppBar(

@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:connectly_c2c/model/product_model/product_model.dart';
 import 'package:connectly_c2c/model/user_model/user_profile_model.dart';
 import 'package:connectly_c2c/services/profile_db_service.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
 

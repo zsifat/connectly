@@ -1,10 +1,5 @@
-import 'package:connectly_c2c/model/offer_price_model/offer_price_model.dart';
 import 'package:connectly_c2c/model/product_model/product_model.dart';
-import 'package:connectly_c2c/model/user_model/user_profile_model.dart';
-import 'package:connectly_c2c/viewmodel/Purchase_sales_viewmodel/purchase_toggle_provider.dart';
-import 'package:connectly_c2c/viewmodel/Purchase_sales_viewmodel/sales_toggle_provider.dart';
 import 'package:connectly_c2c/viewmodel/product_viewmodel/product_provider.dart';
-import 'package:connectly_c2c/views/payment_verification_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';

@@ -16,8 +16,6 @@ class MainScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final currentIndex = ref.watch(navBarProvider).selectedIndex;
     final userProfile =ref.watch(userProfilerProvider);
-    final isLightMode =
-        MediaQuery.of(context).platformBrightness == Brightness.light;
     List<Widget> pages = [
       const HomeScreen(),
       const BuyingProductScreen(),

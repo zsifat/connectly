@@ -4,7 +4,6 @@ import 'package:connectly_c2c/model/offer_price_model/offer_price_model.dart';
 import 'package:connectly_c2c/model/product_model/product_model.dart';
 import 'package:connectly_c2c/model/user_model/user_profile_model.dart';
 import 'package:connectly_c2c/viewmodel/product_viewmodel/product_provider.dart';
-import 'package:connectly_c2c/views/account_setting_update_screen.dart';
 import 'package:connectly_c2c/views/main_screen.dart';
 import 'package:connectly_c2c/views/post_details_screen.dart';
 import 'package:connectly_c2c/views/price_proposed_chat_seller.dart';
@@ -21,9 +20,6 @@ class ItemDashboard extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final size = MediaQuery.of(context).size;
-    final isLightMode =
-        MediaQuery.of(context).platformBrightness == Brightness.light;
-
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,

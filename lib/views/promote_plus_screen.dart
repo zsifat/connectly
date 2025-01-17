@@ -11,8 +11,6 @@ class PromotePlusScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isLightMode =
-        MediaQuery.of(context).platformBrightness == Brightness.light;
     return Scaffold(
       appBar: AppBar(
         title: Text('Manage Promote Plus',

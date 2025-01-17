@@ -20,8 +20,6 @@ class PostDetailsScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final size = MediaQuery.of(context).size;
     final isOwnPost= product.sellerId == ref.watch(userProfilerProvider)!.uid;
-    final isLightMode =
-        MediaQuery.of(context).platformBrightness == Brightness.light;
 
 
     return Scaffold(
